@@ -1,0 +1,17 @@
+/*Стили блока перекрывают стиль модификатора,
+из-за этого сделал импорт стиля модификатора в index.css*/
+
+.header__lang-link {
+  margin: 0 0 0 18px; 
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.header__lang-link:hover {
+  opacity: 0.7;
+}

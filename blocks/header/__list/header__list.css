@@ -1,0 +1,10 @@
+.header__list {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

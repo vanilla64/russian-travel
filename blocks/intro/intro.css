@@ -1,0 +1,9 @@
+@import url('./__title/intro__title.css');
+@import url('./__text/intro__text.css');
+@import url('./__list/intro__list.css');
+@import url('./__span-accent/intro__span-accent.css');
+
+.intro {
+  max-width: 690px;
+  padding: 92px 0;
+}
