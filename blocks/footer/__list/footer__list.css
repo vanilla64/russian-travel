@@ -1,0 +1,29 @@
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__list {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__list li {
+    margin: 0 0 32px;
+  }
+  .footer__list li:last-child {
+    margin: 0 0 48px;
+  }
+}

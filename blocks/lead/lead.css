@@ -18,3 +18,15 @@
   align-items: center;
   max-width: 984px;
 }
+
+@media screen and (max-width: 1280px) {
+  .lead {
+    width: 90.7%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
+}

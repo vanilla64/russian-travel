@@ -10,5 +10,32 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-  color: #fff;
+  transition: 0.4s;
+}
+
+@media screen 
+  and (min-width: 426px) 
+  and (max-width: 768px) {
+    .lead__title {
+      width: 93.8%;
+    }
+}
+
+@media screen  
+  and (max-width: 720px) {
+    .lead__title {
+      font-size: 58px;
+    }
+}
+
+@media screen 
+  and (min-width: 320px) 
+  and (max-width: 425px) {
+    .lead__title {
+      max-width: 288px;
+      margin: 0 0 16px;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 1.1;
+    }
 }

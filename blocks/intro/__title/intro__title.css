@@ -4,9 +4,11 @@
   font-size: 54px;
   line-height: 1.07;
   text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  color: #fff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }

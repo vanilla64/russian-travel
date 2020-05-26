@@ -4,6 +4,37 @@
 @import url('./__span-accent/intro__span-accent.css');
 
 .intro {
-  max-width: 690px;
+  margin: 0 auto;
+  max-width: 984px;
   padding: 92px 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 93.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 93.5%;
+    padding: 88px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    width: 90%;
+    padding: 64px 0;
+  }
 }
