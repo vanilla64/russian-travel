@@ -5,7 +5,6 @@
   display: -o-flex;
   display: flex;
   align-items: flex-end;
-  padding: 80px 0 0;
 }
 
 @media screen and (max-width: 425px) {
@@ -16,6 +15,5 @@
     -o-flex-direction: column;
     flex-direction: column;
     align-items: flex-start;
-    padding: 48px 0 0;
   }
 }

@@ -9,13 +9,14 @@
 @media screen and (max-width: 1024px) {
   .place__image {
     margin: 0 32px 0 0;
+    width: 47.4%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
     margin: 0 28px 0 0;
-    width: 46.6%;
+    width: 48.9%;
   }
 }
 

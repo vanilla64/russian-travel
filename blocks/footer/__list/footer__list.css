@@ -9,7 +9,7 @@
   display: flex;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 680px) {
   .footer__list {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
@@ -19,10 +19,10 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 680px) {
   .footer__list li {
     margin: 0 0 32px;
-  }
+}
   .footer__list li:last-child {
     margin: 0 0 48px;
   }

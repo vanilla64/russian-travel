@@ -1,14 +1,12 @@
 .lead__title {
   margin: 0 0 32px;
   max-width: 720px;
+  font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 1.04;
   text-align: center;
   text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   transition: 0.4s;
 }
