@@ -26,8 +26,7 @@
     }
 }
 
-@media screen 
-  and (min-width: 320px) 
+@media screen  
   and (max-width: 425px) {
     .lead__title {
       max-width: 288px;

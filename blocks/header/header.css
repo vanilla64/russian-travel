@@ -1,6 +1,7 @@
 @import url('./__logo/header__logo.css');
 @import url('./__list/header__list.css');
 @import url('./__lang-link/header__lang-link.css');
+@import url('./__lang-link/_decoration/header__lang-link_decoration_underline.css');
 
 .header {
   display: -webkit-flex;

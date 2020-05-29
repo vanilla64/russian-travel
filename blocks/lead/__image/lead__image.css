@@ -1,9 +1,11 @@
 .lead__image {
   width: 100%;
-  min-height: 615px;
-  margin: 0 0 8px; 
+  object-fit: contain;
+  height: auto;
+  margin: 0 0 8px;
+  transition: 0.9s;
 }
-
+/*
 @media screen and (max-width: 1024px) {
   .lead__image {
   	min-height: 580px;

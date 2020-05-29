@@ -1,28 +1,12 @@
 .place__image {
-  width: 46.8%;
-  height: 100%;
-  margin: 0 40px 0 0;
-  object-fit: scale-down;
+  max-width: 460px;
+  width: 100%;
+  margin: 0;
   transition: 0.4s;
 }
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    margin: 0 32px 0 0;
-    width: 47.4%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__image {
-    margin: 0 28px 0 0;
-    width: 48.9%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .place__image {
-    width: 100%;
-    margin: 0 0 32px;
+    max-width: 440px;
   }
 }

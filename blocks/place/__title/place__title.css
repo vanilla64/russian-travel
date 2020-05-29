@@ -1,23 +1,19 @@
 .place__title {
-  width: 46.8%;;
+  box-sizing: border-box;
+  width: 100%;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
-  margin: 0 40px 0 0;
+  margin: 0;
   padding: 80px 0 0;
-  text-align: justify;
+  -ms-align-self: flex-end;
+  align-self: flex-end;
   text-rendering: optimizeLegibility;
   transition: 0.4s;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__title {
-    margin: 0 32px 0 0;
-}
-
 @media screen and (max-width: 768px) {
   .place__title {
-    margin: 0 28px 0 0;
     padding: 72px 0 0;
     font-size: 42px;
     line-height: 1.1;
@@ -26,9 +22,6 @@
 
 @media screen and (max-width: 425px) {
   .place__title {
-  	width: 100%;
-    box-sizing: border-box;
-  	margin: 0;
     padding: 48px 0 0 16px;
     font-size: 32px;
     line-height: 1.09;
